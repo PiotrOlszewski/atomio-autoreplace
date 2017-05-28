@@ -1,16 +1,20 @@
 {
   "name": "autoreplace",
+  "author": "Piotr Olszewski",
   "main": "./lib/autoreplace",
   "version": "0.0.0",
-  "description": "A simple package to replace polish letters to fit utf-8.
-  Useful for latex editor.
-  Future work: use json to provide dictionary",
+  "description": "A simple package to replace polish letters to fit utf-8. Useful for latex editor.Future work: use json to provide dictionary",
   "keywords": [
+    "autoreplace",
+    "latex"
   ],
   "activationCommands": {
     "atom-workspace": "autoreplace:toggle"
   },
-  "repository": "https://github.com/PiotrOlszewski/atomio-autoreplace.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PiotrOlszewski/atomio-autoreplace.git"
+},
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
