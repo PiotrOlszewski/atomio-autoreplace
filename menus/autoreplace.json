@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle autoreplace",
+        "command": "autoreplace:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "autoreplace",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "autoreplace:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
