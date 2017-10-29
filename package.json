@@ -2,7 +2,7 @@
   "name": "autoreplace",
   "author": "Piotr Olszewski",
   "main": "./lib/autoreplace",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A simple package to replace polish letters to fit utf-8. Useful for latex editor.Future work: use json to provide dictionary",
   "keywords": [
     "autoreplace",
